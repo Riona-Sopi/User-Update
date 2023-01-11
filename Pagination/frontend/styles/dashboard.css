@@ -1,0 +1,489 @@
+
+  
+
+
+.searchmsg{
+  margin-left: 0.5em !important;
+}
+
+
+  .adminname{
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 1em;
+ 
+  }
+
+
+  .logodashboard1{
+    width: 20%;
+    margin-bottom: 4em;
+    margin-top: 2em;
+    text-align: center;
+    justify-content: center;
+  
+    
+  }
+  
+  .logodashboard{
+  justify-content: center;
+  }
+  
+
+  .dashboardlist{
+    text-align: left;
+    margin-right: 4em;
+    margin-left: 1em; 
+    font-size: 1.1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left:1em;
+  
+  }
+
+  .dashboardlist:hover{
+    background-color: white;
+    color: #171719;
+  }
+  
+  .adduseric{
+    width: 14%;
+   margin-right: 1.7em;
+
+  }
+  
+  .adduser1{
+    text-align: center;
+    margin-top: 6em;
+    display: flex;
+    margin-left: 2.4em;
+  }
+
+
+  .signoutic{
+    width:13%;
+    margin-right: 1.7em;
+     
+  }
+  
+  .addusers{
+    text-align: center;
+    padding-right: 8em;
+    margin: 0 auto;
+    
+  }
+  
+  .signout{
+    display: flex;
+    text-align: center;
+    margin-left: 2.4em;
+  }
+  
+    .adminacc{
+     margin-right: 2.8em;
+     margin-left: auto !important;
+    color: #303030;
+
+  
+    }
+  
+  .gs{
+    flex: 1;
+    font-size: 2em;
+  
+  }
+  .gss{
+      width: 3%;
+        border-bottom: 2px solid black;
+        margin-left: 2em;
+  }
+  
+  .GS{
+    background-color: #F7F7F7;
+    padding: 1em;
+    margin-top: 0.2em;
+  }
+  
+   .nav1{
+      display: flex;
+  }
+  
+  .Navbar3{
+    background-color: white;
+  }
+  
+  .navtitle{
+    font-size: 2em;
+    border-right:2px solid black;
+    padding-right: 3em;
+    margin-left: 3em;
+    font-weight: 500;
+  }
+  
+ 
+  .Dashboardback{
+    background-color: white;
+  }
+
+  
+  .quill{
+    width:46% !important;
+  }
+
+  .formbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration:unset;
+    border: 1px solid #303030;
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 0.3em 1.5em;
+    margin-right: 3.5em;
+    margin-top: 1.2em;
+  }
+
+  .formbtn:hover{
+    color: white;
+    background-color:black;
+    text-decoration: unset;
+  }
+
+  .addbtn{
+    float: right; 
+  }
+
+    .navV-item {
+      color: white;
+      background-color: #F7F7F7;
+      color: #FFFFFF;
+      padding-bottom: 0em;
+      height: 2.4em;
+  
+    }
+  
+    .nav-link {
+      color: #303030;
+      border-radius: 10px;
+      width: 100% !important;
+      padding-bottom: 0em;
+      height: 2.4em;
+  
+    }
+  
+    .nav-link:focus {
+      color: white !important;
+      background-color: #303030 !important;
+  
+  
+    }
+  
+    .nav-link:active {
+      background-color: #303030;
+      color: white;
+  
+  
+    }
+  
+  
+    #pills-home-tab {
+      color: #303030;
+      background-color: #F7F7F7;
+      border-radius: 0;
+    }
+
+
+  
+    #pills-contact-tab {
+      color: #303030;
+      background-color: #F7F7F7;
+      border-radius: 0;
+  
+  
+    }
+  
+    #pills-profile-tab {
+      color: #303030;
+      background-color: #F7F7F7;
+      border-radius: 0;
+  
+  
+  
+    }
+  
+    #pills-home-tab:hover {
+      background-color: #303030;
+      color: #F7F7F7;
+    }
+  
+    #pills-contact-tab:hover {
+      background-color: #303030;
+      color: #F7F7F7;
+    }
+  
+    #pills-profile-tab:hover {
+      background-color: #303030;
+      color: #F7F7F7;
+    }
+  
+    .formspacing {
+      margin-left: 3em;
+      margin-top: 3em;
+    }
+  
+    /* .formspacing {
+      margin-left: 6em;
+      margin-top: 3em;
+    } */
+  .offerLink{
+    text-decoration: unset;
+    color: black;
+  }
+
+  .offerLink:hover{
+    color: #515151;
+    text-decoration: unset;
+  }
+
+.ImgAbout{
+      width: 100%;
+      background-color: white;
+      border: 1px solid #a7a7a7;
+}
+
+    .Img {
+      width: 70%;
+      margin-left: 3em; 
+      background-color: white;
+      border: 1px solid #a7a7a7;
+    }
+
+    .ImgSlider{
+      width: 100%;
+      padding-left: 3em; 
+    }
+  
+    .nav {
+      position: relative !important;
+      display: flex;
+      margin-left: 2.8em;
+  
+    }
+  
+    .firstpar {
+      color: #303030;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+  
+    .secondpar {
+      font-size: 0.7em;
+      margin-top: 0;
+      color: #7B7C7C;
+      font-weight: 500;
+  
+    }
+  
+    .Btn1{
+      border: 1.6px solid #303030;
+      background-color: #FFFFFF;
+      color: #303030;
+      font-size: 0.8em;
+      padding: 0.3em;
+      margin-right: 3em;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+  
+    .cancelbtn {
+      border: 1.6px solid #303030;
+      background-color: #FFFFFF;
+      color: #303030;
+      font-size: 0.8em;
+      padding: 0.3em 2em 0.3em 2em;
+      margin-right: 3em;
+    }
+  
+    .cancelbtn a {
+      color: black !important;
+      text-decoration: unset !important;
+    }
+  
+    .Btn1:hover {
+      background-color: black;
+      color: white !important;
+    }
+  
+    .cancelbtn:hover {
+      background-color: #DCDCDC;
+    }
+
+
+  
+    .secondbtn {
+      
+      border: 1.6px solid #303030;
+      background-color: #FFFFFF;
+      color: #303030;
+      font-size: 0.8em;
+      padding: 0.3em;
+      margin-right: 3em;
+      padding-left: 2em;
+      padding-right: 2em;
+  
+    }
+  
+
+    .secondbtn:hover {
+      background-color: #DCDCDC;
+    }
+  
+
+    .Btns{
+      margin-top: 2em;
+    }
+
+    .eventsbtn{
+      margin-top: 1em !important;
+    }
+  
+    .div1 {
+      margin-top: 5em;
+    }
+  
+
+    .div2 {
+      margin-top: 3em;
+    }
+  
+
+    .pagi {
+      margin-top: 6em;
+      margin-left: 5.5em;
+    }
+  
+  
+  
+    .page-link {
+      color: #171719;
+      border: 1px solid #171719;
+    }
+  
+    .page-link:hover {
+      background-color: #171719;
+      color: #FFFFFF;
+    }
+  
+    .page-item {
+      padding: 0.3em;
+  
+    }
+  
+    .hr1 {
+      height: 1px;
+      background-color: black;
+      color: #171719;
+      border: none;
+      margin-top: 2em;
+      margin-bottom: 100px;
+      margin-left: 3em;
+      margin-right: 3em;
+  
+    }
+  
+  
+  
+    .addform {
+      background-color: #F7F7F7;
+      padding-top: 0.5em;
+      box-shadow: inset 0px 2px 3px#7F7F7F;
+      padding-bottom: 0.5em;
+    }
+  
+    .maintitle {
+      font-size: 1.5em;
+      /* width: 2%; */
+      /* border-bottom: 2px solid #303030; */
+      margin-left: 2.5em;
+      margin-top: 0.8em;
+  
+    }
+  
+  
+  
+    .Title {
+      margin-bottom: 0.5em;
+      color: #303030;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+  
+    #Title {
+      width: 46%;
+      border: 2px solid #DCDCDC;
+      margin-bottom: 2em;
+      padding: 0.5em;
+    }
+  
+    .descquill {
+      margin-bottom: 2em;
+    }
+  
+    #SubTitle{
+      width: 46%;
+      border: 2px solid #DCDCDC;
+      padding-bottom: 4em;
+      margin-bottom: 2.7em;
+    }
+  
+    #pershkrimi {
+      width: 46%;
+      border: 2px solid #DCDCDC;
+      padding-bottom: 10em;
+      margin-bottom: 2.7em;
+    }
+  
+    #data {
+      width: 46%;
+      border: 2px solid #DCDCDC;
+      padding-bottom: 0.3em;
+      padding-top: 0.3em;
+    }
+  
+
+    .hrform {
+      width: 46%;
+      margin-bottom: 2em;
+    }
+  
+    .publishpar{
+      margin-left: 3em;
+      margin-bottom: 3em;
+    }
+  
+    #imgg {
+      width: 46%;
+      margin-bottom: 3em;
+      cursor: pointer;
+    }
+  
+
+  
+    .TwoBtns {
+      margin-top: 1em;
+      margin-left: 3em;
+      margin-bottom: 2em;
+    }
+  
+    .plusi {
+      width: 19%;
+      border-right: 1px solid #DCDCDC;
+      padding-right: 1em;
+      margin-left: 0.2em;
+    }
+
+    
+        @media only screen and (min-width: 1400px) and (max-width: 2000px) {
+        
+           
+        }

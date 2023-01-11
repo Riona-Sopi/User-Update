@@ -1,0 +1,314 @@
+nav{
+  margin: 0;
+	padding: 0;
+  text-align: center;
+}
+.sticky {
+    background-color: white !important;
+    -webkit-box-shadow: 3px 1px 1px#303030;
+    -moz-box-shadow: 2px 2px 2px#7F7F7F;
+    box-shadow: 3px 2px 3px#7F7F7F;
+    color: black;
+    width: 100%;
+    z-index: 999;
+}
+
+.sticky a{
+  color: #303030;
+  border-bottom: 2px solid transparent;
+}
+
+.sticky a:hover{
+  color: #303030;
+  border-bottom: 2px solid #303030;
+}
+
+.sticky .languageS{
+  color: #303030;
+}
+
+.Nav1{
+  position: fixed;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+
+}
+
+
+
+.Nav2{
+   background-color: white !important;
+    -webkit-box-shadow: 3px 1px 1px#303030;
+    -moz-box-shadow: 2px 2px 2px#7F7F7F;
+    box-shadow: 3px 2px 3px#7F7F7F;
+    color: black;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a{
+  text-decoration: none !important;
+}
+
+.navlist{
+width:70%;
+margin-left: auto;
+margin-right: auto;
+white-space: nowrap;
+
+ 
+}
+
+.navComp1{
+	margin: 0 1.5em;
+	text-decoration: none;
+  color: white;
+font-size: 0.9em;
+  text-align: center;
+  white-space: nowrap;
+ border-bottom: 2px solid transparent;
+ cursor: pointer;
+
+}
+
+
+.navCom{
+  	margin: 0 1.5rem;
+	text-decoration: none;
+  color: hsl(0, 0%, 19%);
+  font-size: 0.9em;
+  text-align: center;
+  white-space: nowrap;
+ border-bottom: 2px solid transparent;
+ cursor: pointer;
+  
+}
+
+.navCom:hover{
+border-bottom: 2px solid #303030;
+
+}
+.navComp1:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+.navCom:hover{
+  color: #303030;
+}
+.navlogo{
+  width: 2%;
+}
+.searchic{
+  width: 67%;
+  float: right !important;
+  text-align: right;
+  padding-right: 0.3em;
+}
+
+.navsearch{
+  display: flex;
+  float: right;
+  padding-left: 6em;
+}
+
+
+.languageS1{
+  color: #303030;
+   font-size: 0.9em;
+  margin-top: 1em;
+  margin-left: 1.5em;
+  text-align: right;
+}
+
+
+
+
+.languageS{
+   color: white;
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-left: 1.5em;
+ 
+}
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+.Nav1{
+  z-index: 1000;
+}
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color:#303030;
+		transition: 1s;
+		transform: translateX(-100vh);
+    color: white;
+    z-index: 1000;
+
+	}
+
+	header .responsive_nav {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+
+  .navCom{
+    font-size: 1rem;
+    color: white;
+  }
+  .navlogo{
+  width: 5%;
+}
+.searchic{
+  width: 8%;
+  margin-left: 0.9em;
+  display: flex;
+  flex-direction: column !important;
+}
+.searchsphere{
+ justify-content: center ;
+}
+
+.faBars{
+  color: #303030;
+}
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width:1200px){
+ 
+.navlist{
+width:79%;
+margin-left: auto;
+margin-right: auto;
+  white-space: nowrap;
+}
+.navCom{
+  	margin: 0 0.9em;
+  font-size: 0.8em;
+}
+.navComp1{
+  margin: 0 1.3em !important;
+  font-size: 0.8em;
+}
+.searchic{
+  width: 63%;
+
+ 
+}
+.languageS1{
+  font-size: 0.8em;
+}
+.languageS{
+  font-size: 0.8em;
+}
+
+.navsearch{
+  padding-left: 2em !important;
+}
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width:1400px){
+
+.navCom{
+  	margin: 0 0.9em;
+  font-size: 0.9em;
+  
+}
+
+.navComp1{
+  	margin: 0 0.9em;
+  font-size: 0.9em;
+}
+.searchic{
+  width: 65%;
+
+ 
+}
+
+.navsearch{
+  padding-left: 4em !important;
+}
+}
+
+
+ @media only screen and (min-width: 1400px) and (max-width:1500px){
+ .navsearch{
+  padding-left: 8em !important;
+}
+} 
+
+
+
+@media only screen and (min-width: 1600px) and (max-width:1800px){
+.navlist{
+  width: 65%;
+  
+}
+.navCom{
+  font-size: 1em;
+}
+}
+
+@media only screen and (min-width: 1800px) and (max-width:2000px){
+.navlist{
+  width: 64%;
+  
+} 
+.navCom{
+  font-size: 1em;
+}
+
+.navComp1{
+  margin: 0 1em;
+  font-size: 1.1em;
+}
+
+.navsearch{
+  padding-left: 17em;
+}
+}

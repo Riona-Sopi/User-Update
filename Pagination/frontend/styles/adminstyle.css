@@ -1,0 +1,194 @@
+
+html{
+    overflow-x: hidden;
+}
+
+
+.messageContainer{
+  width: 100px;
+  overflow-anchor: none !important;
+}
+
+
+  .forgot{
+    color: #00a785;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .forgot:hover{
+    color: #027c64;
+    text-decoration: unset;
+  }
+  
+  .par{
+    font-size: 20px;
+  }
+/* a {
+  color: black;
+  text-decoration: unset !important;
+} */
+
+  ::-webkit-file-upload-button {
+    font-size: 15px;
+    border-radius: unset; 
+    background: transparent;
+    color: #97979c;
+    border: 1px solid #97979c;
+    margin-right: 12px !important;
+    cursor: pointer;
+    padding:0 0.9em;
+  }
+
+  /* ::-webkit-file-upload-button:hover{
+    border: 1px solid #00A785;
+    color: #00A785;
+  } */
+  .hr2{
+    height: 2px;
+    margin-left: 3em;
+    color: black;
+    opacity: 1;
+   margin-right: 3em;
+
+  }
+
+  .paginationBttns {
+    margin-left: 0.8em;
+    margin-bottom: 2.6em;
+    margin-top: 7.5rem;
+    color: black;
+    /* height: 40px; */
+    list-style: none;
+    display: flex;
+  }
+  
+  .paginationBttns a {
+    padding: 8px 15px !important;
+    margin: 5px;
+    background-color:white;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+  }
+
+  .paginationBttns a:hover {
+    color: white !important;
+    background-color: black;
+  }
+  
+  .paginationActive a {
+    color: white !important;
+    background-color: black;
+  }
+
+  a.nextBttn, a.previousBttn{
+    text-decoration: unset !important;
+  }
+  .btnicon:focus{
+    box-shadow: unset !important;
+    border: unset !important;
+  }
+
+  .btnicon{
+    /* padding-left: 0; */
+  }
+
+  .searchcontainer{
+    margin:2.5em 2.5em 6em 2.5em;
+  }
+
+  .searchbox{
+    border-radius: 0 !important;
+  }
+
+  .searchbox:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: unset !important;
+    outline: 0;
+    box-shadow: unset !important;
+  }
+ 
+  /* .paginationDisabled a {
+    color: grey;
+    background-color: grey;
+  } */
+  div.jumbotron.bg-white{
+    /* background-color: grey !important;
+    padding: 0 !important; */
+    padding-left:0 !important;
+  }
+  .divsearch{
+    background-color: #DCDCDC;
+    padding: 50px;
+    margin-bottom: 50px;
+  }
+  .roleselect{
+    width: 69.5% !important;
+    padding: 0.6em;
+    border: 2px solid #DCDCDC;
+    margin-bottom: 1em;
+    color: #7F7F7F;
+    background-color: #F7F7F7;
+  }
+
+  .search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+  .input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px 40px 0px 10px;
+    font-size: 16px;
+    outline: none;
+    /* border-radius: 25px; */
+    transition: all .5s ease-in-out;
+    color:black;
+  }
+  .input-search::placeholder{
+    color:black;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    position: absolute;
+    right: 0px;
+    color:black ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid black;
+    /* transition: all .5s ease-in-out; */
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid black;
+    /* transition: all .5s ease-in-out; */
+  }
+
+    .form-control{
+      margin-left: 0.5em;
+    }
+
+            @media only screen and (min-width: 1500px) and (max-width: 2000px) {
+         
+
+            }

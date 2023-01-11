@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.BrandImg{
+    width: 90%;
+    background-color: white;
+    margin-bottom: 5em;
+    cursor: pointer;
+}
+
+.BrandsSpace {
+   margin: 0 auto;
+   width: 65%;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+body{
+    background-color: #F7F7F7;
+}
+
+.TITLE {
+    font-size: 1.5em;
+    width: 2%;
+    border-bottom: 2px solid black;
+    margin-left: 4em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+
+
+.SS{
+    border: none;
+    font-size: 0.8em;
+    height: 2em;
+    width: 80%;
+ 
+}
+
+
+
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+   
+    .BrandsSpace{
+        width: 80%;
+    }
+}

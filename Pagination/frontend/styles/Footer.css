@@ -1,0 +1,297 @@
+.Footer{
+    background-color: #303030;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    color: #F7F7F7;
+
+}
+
+
+.footer1{
+    width: 100%;
+    /* padding-right: 5em !important;
+    padding-left: 5em !important; */
+}
+
+#workbtn{
+    background-color: #303030;
+    color: #303030;
+    border: 1px solid #F7F7F7;
+    cursor: pointer;
+    color: #F7F7F7;
+    margin-bottom: 1em;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 0.8em 6em;       
+}
+
+#subscribebtn{
+    background-color: #303030;
+        color: #303030;
+        border: 1px solid #F7F7F7;
+        cursor: pointer;
+        color: #F7F7F7 !important;
+        margin-bottom: 1em;
+        font-size: 0.7em;
+        text-align: center;
+        padding: 0.8em 2em;
+}
+.subscribebtn{
+    background-color: #303030;
+    color: #303030;
+    border: 1px solid #F7F7F7;
+    cursor: pointer;
+    color: #F7F7F7;
+    margin-bottom: 1em;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 0.8em 0.9em;
+}
+
+.subscribebtn_submit{
+    background-color: #F7F7F7;
+    /* color: #303030; */
+    border: 1px solid #F7F7F7;
+    cursor: pointer;
+    color: #303030;
+    margin-bottom: 1em;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 0.8em 0.9em;
+}
+
+.msgtext{
+    font-size: 0.8em !important;
+}
+
+.subscribebtn:focus-visible{
+    border: unset !important;
+    border-radius: unset !important;
+}
+.subscribebtn:focus{
+    border: unset !important;
+    border-radius: unset !important;
+}
+.locationcon{
+    border-right: 1px solid #F7F7F7;
+    font-size: 0.7em;
+    padding-top: 2.5em;
+    padding-bottom: 1.2em;
+}
+
+.phone{
+    font-size: 0.7em;
+    border-right: 1px solid #F7F7F7;
+    text-align: center;
+    /* padding-right: 2.5em; */
+    padding-top: 2.5em;
+        padding-bottom: 1.2em;
+       
+    }
+    
+
+.thirdpart{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7em;
+    border-right: 1px solid #F7F7F7;
+    padding-top: 3.2em;
+    padding-bottom: 2.2em;
+    justify-content: center !important;
+    cursor: pointer;
+
+
+}
+
+.thirdcon{
+   margin-right: 3em;
+
+}
+
+
+
+.firstcon{
+    margin-bottom: 0;
+}
+
+#workbtn:hover , #subscribebtn:hover {
+    background-color: #F7F7F7;
+    color: #303030;
+}
+
+.footerlogo{
+   padding-top: 1.5em !important;
+   margin-bottom: 2.5em;
+    text-align: center;
+}
+
+.socials {
+    margin-left: 5em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.logos {
+    width: 2%;
+}
+
+.footerhr {
+    background-color: #F7F7F7;
+    opacity: 1;
+
+}
+
+.copyr {
+    margin-left: 8.5em;
+    font-size: 0.6em;
+    margin-bottom: 2em;
+}
+
+  .log {
+      width: 2%;
+      margin: 0 auto !important;
+      text-align: center;
+  }
+
+
+  @media only screen and (min-width: 1px) and (max-width: 600px) {
+    .locationcon {
+            border-right:none !important;
+            font-size: 0.6em;
+            margin-left: 2.5em;
+            
+        }
+     
+        .phone{
+            border-right: none !important;
+            font-size: 0.6em;
+        }
+
+       .thirdpart{
+        border-right: none !important;
+        font-size: 0.6em;
+        padding-top: 0 !important;
+       } 
+
+
+       .log{
+        width: 7% !important;
+       }
+
+        .footerlogo{
+            margin-bottom: 1em !important;
+        }
+
+        #workbtn{
+            padding: 0.3em 3em !important;
+            margin-right: 1em;
+            font-size: 0.6em;
+        }
+
+        .subscribebtn, .subscribebtn_submit {
+            padding: 0.5em 1em ;
+            font-size: 0.6em;
+        }
+
+       
+
+    .logos {
+        width: 5%;
+    }
+
+    .socials {
+             margin-left: auto !important;
+             margin-right: auto !important;
+             text-align: center;
+             cursor: pointer;
+             margin-top: 1.2em !important;
+    }
+
+    .copyr {
+        margin-left: 0 !important;
+       text-align: center;
+        font-size: 0.6em;
+            margin-bottom: 2em;
+    }
+    .msgtext{
+    font-size: 0.7em !important;
+    padding-top: 1em;
+}
+
+  }
+
+
+
+  @media only screen and (min-width: 601px) and (max-width: 1000px) {
+.locationcon {
+        border-right: none !important;
+        font-size: 0.9em;
+        margin-left: 2.5em;
+
+    }
+
+    .phone {
+        border-right: none !important;
+        font-size: 0.9em;
+    }
+
+    .thirdpart {
+        border-right: none !important;
+        font-size: 0.9em;
+        padding-top: 0.5em !important;
+    }
+
+
+    .log {
+        width: 6% !important;
+    }
+
+    .footerlogo {
+        margin-bottom: 1em !important;
+    }
+
+    #workbtn {
+        padding: 0.3em 3.3em !important;
+        margin-right: 1em;
+        font-size: 0.9em;
+    }
+
+    .subscribebtn, .subscribebtn_submit {
+        padding: 0.3em 1em;
+        font-size: 0.9em;
+    }
+.msgtext{
+    padding-top: 1em;
+}
+
+    .logos {
+        width: 5%;
+    }
+
+    .socials {
+        margin-left: auto !important;
+            margin-right: auto !important;
+            text-align: center;
+        margin-top: 1.2em !important;
+        cursor: pointer;
+    }
+
+    .copyr {
+        margin-left: 0 !important;
+        text-align: center;
+        font-size: 0.8em;
+        margin-bottom: 2em;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .locationcon, .phone,.thirdpart, .subscribebtn,.subscribebtn_submit, #workbtn{
+    font-size: 0.6em;
+  }
+
+  
+  }
+

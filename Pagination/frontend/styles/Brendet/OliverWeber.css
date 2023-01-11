@@ -1,0 +1,258 @@
+
+
+.inf{
+ padding: 0 10em;
+ font-size: 0.9em;
+ margin-bottom: 2em;
+ font-weight: 700;
+}
+ .adresa{
+    padding: 0 10em;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+    font-weight: 700;
+ }
+
+ .ing{
+    padding: 0 8em;
+    margin-top: 1.5em;
+ }
+
+
+.infbrend{
+    width: 130%;
+    margin-bottom: 2em;
+    font-size: 0.85em;
+    font-weight: 500;  
+}
+
+.imgg{
+    width: 66%;
+}
+
+.planheading {
+    font-size: 23px;
+    width: 30%;
+   padding-left: 4em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+
+}
+
+.planimetry{
+    width: 64%;
+    margin:0 auto;
+    display: block;
+    padding-bottom: 4em;
+}
+
+
+.brandBtn {
+    text-align: center;
+   margin-bottom: 3em;
+}
+
+
+.buyBtn {
+    background-color: #F7F7F7;
+    padding: 0.3em 5em;
+    color: black;
+    border: 1px solid #171719;
+    cursor: pointer;
+    margin-right: 2em;
+}
+
+.buyBtnb:hover {
+    background-color: #171719;
+    color: white;
+}
+
+.Btn360 {
+    background-color: #F7F7F7;
+    padding: 0.3em 5em;
+    border: 1px solid #171719;
+    cursor: pointer;
+   
+}
+
+.Btn360:hover {
+    background-color: #171719;
+    color: white;
+}
+
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  
+
+   
+
+    .ing {
+        padding: 0 !important;
+        margin-left: 5em;
+        width: 100%;
+    
+    }
+   
+   
+   
+   
+    .inf{
+        padding: 0 !important;
+         margin-left: 0 !important;
+        font-size: 0.8em;
+    }
+
+        .adresa{
+            padding: 0 !important;
+               margin-left: 0em;
+                font-size: 0.75em;
+        }
+
+    .infbrend{
+     width: 200% !important;
+     font-size: 0.7em !important;
+ 
+    }
+
+    .imgg{
+        display: block;
+        margin-left:auto ;
+        margin-right: auto;
+        padding-left: 2em;
+    }
+
+.buyBtn{
+    margin-right: 0 !important;
+    margin-bottom: 2em;
+}
+     
+}
+
+@media only screen and (min-width: 501px) and (max-width: 769px) {
+.adresa {
+      
+        text-align: center;
+    
+
+    }
+
+    .ing {
+        padding: 0 !important;
+        margin-left: 5em;
+        width: 100%;
+
+    }
+
+
+
+
+    .inf {
+        margin-left: 0.6em;
+        font-size: 0.8em;
+       
+    }
+
+    .adresa {
+        margin-left: 0em;
+        font-size: 0.75em;
+    }
+
+    .infbrend {
+        width: 200% !important;
+        font-size: 0.7em !important;
+
+    }
+
+    .imgg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2em;
+    }
+
+   
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1000px) {
+
+
+    .ing {
+        padding: 0 !important;
+        margin-left: 5em;
+        width: 100%;
+
+    }
+
+
+
+
+    .inf {
+        margin-left: 0.6em;
+        font-size: 0.8em;
+
+    }
+
+    .adresa {
+        margin-left: 0em;
+        font-size: 0.8em;
+    }
+
+    .infbrend {
+        width: 200% !important;
+        font-size: 0.9em !important;
+
+    }
+
+    .imgg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2em;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .ing {
+            padding: 0 !important;
+            /* margin-left: 5em; */
+            width: 100%;
+    
+        }
+    
+    
+    
+    
+        .inf {
+            margin-left: 0.6em;
+            font-size: 0.8em;
+    
+        }
+    
+        .adresa {
+            margin-left: 0em;
+            font-size: 0.8em;
+        }
+    
+        .infbrend {
+            width: 100% !important;
+            font-size: 0.75em !important;
+    
+        }
+    
+        .imgg {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* padding-left: 2em; */
+            margin-top: 5em;
+            
+        }
+    
+      
+}
+
+
+
+
