@@ -9,6 +9,7 @@ const _ = require("lodash");
 const shortId = require("shortid");
 const role = require("../middleware/role");
 
+
 exports.read = (req, res) => {
   req.profile.hashed_password = undefined;
   return res.json(req.profile);
@@ -74,7 +75,7 @@ exports.editUser = async (req, res, next) => {
     ![Object.values(role)].includes(req.token.role[0]) &&
     req.params.userId !== req.body._id
   )
-    return res.status(401).json({  });
+    return res.status(401).json({});
 
   // validate the user
   // const { error } = validation.userUpdateValidation(req.body);
@@ -83,18 +84,27 @@ exports.editUser = async (req, res, next) => {
   // if (error) return res.status(400).json({ error: error.details[0].message });
   try {
     const id = req.params.userId;
-    console.log("req.params", req.body);
-
-    await User.findByIdAndUpdate(id, req.body);
-    res.status(200).json({ data: "User updated successfully", user: req.body });
+    if (req.body.password) {
+      const salt = await bcrypt.genSalt(10);
+      const hashPassword = await bcrypt.hash('req.body.password', salt);
+      await User.findByIdAndUpdate(id, {
+        ...req.body,
+        hashed_password: hashPassword,
+      });
+     return res
+        .status(200)
+        .json({ data: "User updated successfully", user: req.body });
+    }
+    await User.findByIdAndUpdate(id, ...req.body);
+    return res.status(200).json({ data: "User updated successfully", user: req.body });
   } catch (error) {
-    res.status(500).json({ error });
+    return res.status(500).json({ error });
   }
 };
 
 exports.remove = async (req, res, next) => {
   if (![Object.values(role)].includes(req.token.role[0]))
-    return res.status(401).json({  });
+    return res.status(401).json({});
   try {
     const id = req.params.userId;
     await User.findByIdAndDelete(id);
