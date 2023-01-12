@@ -95,7 +95,7 @@ exports.editUser = async (req, res, next) => {
         .status(200)
         .json({ data: "User updated successfully", user: req.body });
     }
-    await User.findByIdAndUpdate(id, ...req.body);
+    await User.findByIdAndUpdate(id, req.body);
     return res.status(200).json({ data: "User updated successfully", user: req.body });
   } catch (error) {
     return res.status(500).json({ error });
