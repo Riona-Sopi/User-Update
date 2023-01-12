@@ -91,7 +91,7 @@ const UserUpdate = () => {
       if (data.error) {
         setValues({ ...values, error: data.error });
       } else {
-        localStorage.setItem("user", JSON.stringify(data.user));
+        if (!id) localStorage.setItem("user", JSON.stringify(data.user));
         // router.reload();
         setValues({
           ...values,

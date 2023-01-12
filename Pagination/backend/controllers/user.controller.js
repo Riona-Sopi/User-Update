@@ -86,7 +86,7 @@ exports.editUser = async (req, res, next) => {
     const id = req.params.userId;
     if (req.body.password) {
       const salt = await bcrypt.genSalt(10);
-      const hashPassword = await bcrypt.hash('req.body.password', salt);
+      const hashPassword = await bcrypt.hash(req.body.password, salt);
       await User.findByIdAndUpdate(id, {
         ...req.body,
         hashed_password: hashPassword,
@@ -95,7 +95,7 @@ exports.editUser = async (req, res, next) => {
         .status(200)
         .json({ data: "User updated successfully", user: req.body });
     }
-    await User.findByIdAndUpdate(id, ...req.body);
+    await User.findByIdAndUpdate(id, req.body);
     return res.status(200).json({ data: "User updated successfully", user: req.body });
   } catch (error) {
     return res.status(500).json({ error });
