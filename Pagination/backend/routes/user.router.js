@@ -8,8 +8,8 @@ const Role = require('../middleware/role');
 
 router.post('/users', list);
 router.get('/user/:userId', getUser);
-router.put('/user/:userId',  authorize([Role.Admin]), editUser);
-router.delete('/user/:userId', authorize([Role.Admin]), remove);
+router.put('/user/:userId',  authorize([Role.Admin,Role.SuperAdmin]), editUser);
+router.delete('/user/:userId', authorize([Role.Admin,Role.SuperAdmin]), remove);
 router.get('/users/search', listSearch);
 
 
