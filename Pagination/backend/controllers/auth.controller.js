@@ -327,3 +327,55 @@ exports.resetPassword = (req, res) => {
     );
   }
 };
+
+
+async function sendMail(email, link, name) {
+
+  var transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
+    auth: {
+      user: '',
+      pass: ''
+    },
+    tls: {
+      rejectUnauthorized: false
+    }
+  })
+
+  var mailOptions = {
+    from: '"Riona Sopi "rs50936@ubt-uni.net', 
+    to: email, 
+    subject: 'Mall', 
+    text: 'Hi!', 
+    html: `
+    <table width="800px"
+        style="margin: auto;padding: 85px 65px;">
+      <tr>
+          <td style="padding-bottom: 40px;">
+              <p style="font-size: 17px; line-height: 1.5;">Hello ${name},
+                  <br/><br/>
+                  Change password<br>
+              </p>
+          </td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+          <td style="padding-bottom: 40px;">
+              <p style="padding: 20px 0; text-decoration: none;font-size: 17px; line-height: 1.5;">
+                  <a href=${link} style="padding: 20px 40px; text-decoration: none;color: white;background-color: #303030"><b>Change password</b></a>
+              </p>
+          </td>
+      </tr>
+    </table>` 
+  };
+
+  transporter.sendMail(mailOptions, function (error, info) {
+    if (error) {
+      return console.log(error);
+    }
+    console.log('Message sent');
+  });
+}
